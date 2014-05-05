@@ -1,0 +1,37 @@
+I refer this plugin to ChatBot from PandoraBots (http://www.pandorabots.com/), a free service ChatBot host and customisation.
+You don't need to be registered with the website of PandoraBot to use this plugin,
+but you can do it if you want to custom a ChatBot by yourself to make it talk more about like whats happen in your server,
+how to play minigame you have, who is admin staff, ...
+Well, you can make a ChatBot to assist your players to help them or just to divert them.
+
+I ll not explain you how to config a new ChatBot or how to custom it.
+It's not part of this plugin. You ll find so many tools and tutorial for all about ChatBot on PandoraBots website.
+
+The config.yml file for this plugin content 4 informations;
+
+chatbot: "on"
+turn on or off the ChatBot;
+can be toggled ingame with /chatbot [on|off];
+
+bothost: http://www.pandorabots.com/pandora/talk-xml
+website where plugin send and get data API;
+DO NOT CHANGE IT! (idk why I saved it in config);
+
+botid: f5d922d97e345aa1
+identificator for the ChatBot;
+
+botname: Alice
+the name of the ChatBot.
+
+
+If you want to try another free ChatBot, you need to edit the two informations botid and botname in config.yml file.
+You must goto the Most Popular Pandorabots for Last 24 Hours page and you can choose one of those ChatBots listed.
+Copy and paste the name of the ChatBot and put it in the config file to botname.
+For the botid, you need to go to the chosen ChatBot page and look in the address bar to find it.
+
+Ex: I choose Kevin, I click on its name, look at the address bar:
+http://www.pandorabots.com/pandora/talk?botid=a23d6d96be347f91
+The botname is Kevin
+The botid is a23d6d96be347f91
+
+If you have any question, bug report, constructive comment, ... feel free to leave them, I ll reply for sure !
